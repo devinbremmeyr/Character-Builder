@@ -30,9 +30,11 @@ print "Appearance: " + TraitsList[random.randint(0,TraitsList.__len__()-1)]
 
 TraitsFile.close()
 
-print "STR:" + str(random.randint(0,18))
-print "DEX:" + str(random.randint(0,18))
-print "CON:" + str(random.randint(0,18))
-print "INT:" + str(random.randint(0,18))
-print "WIS:" + str(random.randint(0,18))
-print "CHA:" + str(random.randint(0,18))
+print "STR:" + str(random.randint(1,18))
+print "DEX:" + str(random.randint(1,18))
+print "CON:" + str(random.randint(1,18))
+print "INT:" + str(random.randint(1,18))
+print "WIS:" + str(random.randint(1,18))
+print "CHA:" + str(random.randint(1,18))
+
+raw_input('Press Enter to Exit')
